@@ -32,3 +32,17 @@ void setup() {
     pinMode(RED_PIN, OUTPUT);
     pinMode(GREEN_PIN, OUTPUT);
     pinMode(BLUE_PIN, OUTPUT);
+
+ // TODO 6:
+    // Print initialization message
+    Serial.println("RGB LED Control Initialized");
+}
+
+void loop() {
+
+    // -------- DIGITAL MODE --------
+
+    // TODO 7:
+    // Turn ON red (digital HIGH)
+    digitalWrite(RED_PIN, HIGH);
+    delay(1000);
