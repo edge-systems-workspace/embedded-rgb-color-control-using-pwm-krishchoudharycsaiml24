@@ -21,3 +21,14 @@
 // TODO 3:
 // Define BLUE pin (Use 11)
 #define BLUE_PIN 11
+void setup() {
+
+    // TODO 4:
+    // Initialize Serial communication (9600 baud)
+    Serial.begin(9600);
+
+    // TODO 5:
+    // Configure RGB pins as OUTPUT
+    pinMode(RED_PIN, OUTPUT);
+    pinMode(GREEN_PIN, OUTPUT);
+    pinMode(BLUE_PIN, OUTPUT);
