@@ -46,3 +46,13 @@ void loop() {
     // Turn ON red (digital HIGH)
     digitalWrite(RED_PIN, HIGH);
     delay(1000);
+ // TODO 8:
+    // Turn OFF red
+    digitalWrite(RED_PIN, LOW);
+    delay(1000);
+
+    // -------- ANALOG (PWM) MODE --------
+
+    // TODO 9:
+    // Set RED brightness using analogWrite()
+    analogWrite(RED_PIN, 255);   // Full brightness
